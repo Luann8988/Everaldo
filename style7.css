@@ -1,0 +1,96 @@
+
+:root {
+    --primary-bg: linear-gradient(90deg, #0099FF, #8A2BE2, #FFFFFF);  
+    --header-bg: #6A0DAD;       
+    --secondary-bg: #ffd2d2;    
+    --text-color: #222;         
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: var(--primary-bg);
+    color: var(--text-color);
+    line-height: 1.6;
+    background-image: linear-gradient(rgba(13,17,23,0.85), rgba(13,17,23,0.85)), url(png.avif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+        }
+
+header {
+    background-color: var(--header-bg);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+section.historia {
+    background-color: var(--secondary-bg);
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin: 30px auto;
+    max-width: 900px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+section.historia h2 {
+    color: #6A0DAD;   /* Roxo forte */
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+section.historia p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333;
+}
+
+.carousel-container {
+    margin: 30px auto;
+    max-width: 900px;
+}
+
+.carousel-inner img {
+    border-radius: 10px;
+    max-height: 450px;
+    object-fit: cover;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+strong {
+    color: #6A0DAD;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}

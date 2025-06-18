@@ -1,0 +1,183 @@
+body {
+    background-image: linear-gradient(rgba(20, 20, 40, 0.8), rgba(20, 20, 40, 0.8)), url(png.avif);
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 30px;
+}
+
+.card {
+    width: 260px;
+    border-radius: 15px;
+    padding: 1rem;
+    border: 2px solid #ffffff20;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: #333;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card:nth-child(6n+1) {
+    background: linear-gradient(135deg, #ffd6e8, #ffb3c6);
+}
+
+.card:nth-child(6n+2) {
+    background: linear-gradient(135deg, #d6f5ff, #b3ecff);
+}
+
+.card:nth-child(6n+3) {
+    background: linear-gradient(135deg, #d9fdd3, #b7e4b4);
+}
+
+.card:nth-child(6n+4) {
+    background: linear-gradient(135deg, #fff5cc, #ffe999);
+}
+
+.card:nth-child(6n+5) {
+    background: linear-gradient(135deg, #e0e7ff, #c7d2fe);
+}
+
+.card:nth-child(6n+6) {
+    background: linear-gradient(135deg, #ffe0f0, #fbb1d3);
+}
+
+.text-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 0.7rem;
+    color: #222;
+    text-align: center;
+}
+
+.text-body {
+    color: #555;
+    font-size: 0.95rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.card-button {
+    background: linear-gradient(45deg, #7c3aed, #4f46e5);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.card-button:hover {
+    background: linear-gradient(45deg, #4f46e5, #4338ca);
+    transform: translateY(-2px);
+}
+
+.extra-info {
+    margin-top: 15px;
+    padding: 12px;
+    background: #ffffffcc;
+    border-radius: 10px;
+    border: 1.5px solid #888;
+    display: none;
+    width: 100%;
+    box-sizing: border-box;
+    color: #333;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.extra-info p {
+    margin: 6px 0;
+    font-size: 0.9rem;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.action-buttons button {
+    flex: 1;
+    background: linear-gradient(45deg, #3b82f6, #2563eb);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.3s ease;
+}
+
+.action-buttons button:hover {
+    background: linear-gradient(45deg, #2563eb, #1d4ed8);
+    transform: scale(1.05);
+}
+.card-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #007BFF, #0056b3);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card-button:hover {
+    background: linear-gradient(45deg, #0056b3, #003f7f);
+    transform: translateY(-2px);
+}
+
+.card-cadastro {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #28a745, #1e7e34);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card-cadastro:hover {
+    background: linear-gradient(45deg, #1e7e34, #155d27);
+    transform: translateY(-2px);
+}
+
+.extra-info {
+    display: none;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
