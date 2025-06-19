@@ -12,15 +12,15 @@ body {
     align-items: center;
 }
 
-.background-video {
-position: fixed;
-right: 0;
-bottom: 0;
-min-width: 100%;
-min-height: 100%;
-z-index: -1;
-object-fit: cover;
-}
+  .background-video {
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   min-width: 100%;
+   min-height: 100%;
+   z-index: -1;
+  object-fit: cover;
+  }
 
 .form-section {
     width: 90%;
@@ -114,4 +114,23 @@ textarea {
     .form-grid {
         flex-direction: column;
     }
+}
+
+@media (max-width: 480px) {
+  .title h1 {
+    font-size: 1.2rem;
+  }
+
+  ul li a {
+    font-size: 0.9rem;
+  }
+
+  .container .card-img-top {
+    height: 150px;
+  }
+
+  .btn-primary, .btn-secondary {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
 }

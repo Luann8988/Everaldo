@@ -257,3 +257,22 @@ body {
   outline: none;
   box-shadow: 0 0 0 4px rgba(38, 143, 255, 0.5);
 }
+
+@media (max-width: 480px) {
+  .title h1 {
+    font-size: 1.2rem;
+  }
+
+  ul li a {
+    font-size: 0.9rem;
+  }
+
+  .container .card-img-top {
+    height: 150px;
+  }
+
+  .btn-primary, .btn-secondary {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}

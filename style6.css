@@ -194,3 +194,22 @@ body {
 .card-body .btn:hover {
     opacity: 0.9;
 }
+
+@media (max-width: 480px) {
+  .title h1 {
+    font-size: 1.2rem;
+  }
+
+  ul li a {
+    font-size: 0.9rem;
+  }
+
+  .container .card-img-top {
+    height: 150px;
+  }
+
+  .btn-primary, .btn-secondary {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
