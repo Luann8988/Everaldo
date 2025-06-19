@@ -6,7 +6,7 @@
 }
 
 header {
-	background-image: linear-gradient(rgba(13,17,23,0.8), rgba(13,17,23,0.8)), url(png.avif);
+	background-image: linear-gradient(rgba(13,17,23,0.8), rgba(13,17,23,0.8)), url(https://i.pinimg.com/originals/68/b7/1f/68b71f8f1b8f8d27230f250bfc0e87c1.png);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -140,7 +140,7 @@ ul li.active a {
 
 }
 footer {
-    background: linear-gradient(90deg, #00CFFF, #9D00FF);
+	background: linear-gradient(135deg, #243B55, #6098ff); 
     color: #000000;
     text-align: center;
     padding: 10px 0;
@@ -149,8 +149,12 @@ footer {
 
 body {
   font-family: 'Poppins', sans-serif;
-  
+  background: linear-gradient(135deg, #243B55, #141E30); 
+  color: #C1DAD6; 
+  margin: 0;
+  padding: 0;
 }
+
 
 .container .row {
   display: flex;
@@ -168,8 +172,8 @@ body {
   color: #fff;
   text-align: center;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(135deg, #243B55, #141E30); 
   perspective: 1000px;
-  background: linear-gradient(135deg, #ff6b6b, #f06595);
   transition: transform 0.8s ease, box-shadow 0.8s ease;
   transform-style: preserve-3d;
 }
